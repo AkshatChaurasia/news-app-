@@ -1,4 +1,3 @@
-import "package:news_app/models/category_model.dart";
 import 'package:flutter/material.dart';
 import 'package:news_app/views/home.dart';
 
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.white,
       ),
-      home: Home(),
+      home: const Home(),
     );
   }
 }
